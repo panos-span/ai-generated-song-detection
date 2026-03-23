@@ -1,0 +1,50 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Caches
+.mypy_cache/
+.pytest_cache/
+
+# Data (large files)
+data/sonics/
+data/mippia/
+data/fakemusiccaps/
+data/pairs/
+
+# Model checkpoints
+checkpoints/
+/models/
+
+# MLflow
+mlruns/
+
+# Logs
+logs/
+
+# HuggingFace cache
+data/.hf_cache/
+
+# Feature cache
+data/feature_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Factory AI (keep settings local, commit everything else)
+.factory/settings.json
+
+# PDF files (except report)
+*.pdf
+!report/report.pdf
+
+# Lock file (large, regenerable)
+uv.lock
